@@ -1,0 +1,420 @@
+* body {
+  height: 0;
+  margin: 0;
+}
+
+/* background */
+#page-1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("assets/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+} 
+
+/* navbar background */
+#page-1 .navbar {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: -0%;
+  bottom: 90.66%;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* navbar */
+#page-1 .navbar .logo {
+  position: absolute;
+  width: 77px;
+  height: 35px;
+  left: 107px;
+  top: 0;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#page-1 .navbar .home {
+  position: absolute;
+  width: 67.51px;
+  height: 20.19px;
+  left: 360px;
+  top: 26.5px;
+}
+#page-1 .navbar .home a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#page-1 .navbar .work {
+  position: absolute;
+  width: 67.51px;
+  height: 20.19px;
+  left: 450px;
+  top: 26.5px;
+}
+#page-1 .navbar .work a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#page-1 .navbar .contact {
+  position: absolute;
+  width: 67.51px;
+  height: 20.19px;
+  left: 555px;
+  top: 26.5px;
+}
+#page-1 .navbar .contact a { 
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#page-1 .navbar .about {
+  position: absolute;
+  width: 90px;
+  height: 20.19px;
+  left: 640px;
+  top: 26.5px;
+}
+#page-1 .navbar .about a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#page-1 .navbar .sign-up {
+  position: absolute;
+  width: 90px;
+  height: 20.19px;
+  left: 78%;
+  top: 26.5px;
+}
+#page-1 .navbar .sign-up a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#page-1 .navbar .login {
+  position: absolute;
+  width: 70px;
+  height: 20.19px;
+  left: 85%;
+  top: 26.5px;
+}
+#page-1 .navbar .login a { 
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* end navbar */
+
+#page-1 .main-body .box1 {
+  position: absolute;
+  height: 73.12px;
+  left: 9.22%;
+  right: 10.47%;
+  top: 190px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+}
+#page-1 .main-body .box2 {
+  position: absolute;
+  left: 33.84%;
+  right: 29.66%;
+  top: 46.23%;
+  bottom: 50.89%;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 2px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+#page-1 .main-body .box3 {
+  position: absolute;
+  left: 40.83%;
+  right: 41.09%;
+  top: 55.07%;
+  bottom: 38.68%;
+  background: rgb(216, 161, 59);
+  border-radius: 4px;
+}
+#page-1 .main-body .box3 a {
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  left: 34.5%;
+  right: 44.95%;
+  top: 30%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #1A1917;
+}
+#page-1 .main-body .story a {
+  position: absolute;
+  left: 47.66%;
+  right: 47.615;
+  top: 92%;
+  bottom: 13%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: justify;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#page-1 .main-body .icon-scroll {
+  position: absolute;
+  left: 47.5%;
+  right: 47.61%;
+  top: 93.5%;
+  bottom: 6%;
+}
+
+/* PAGE 2 */
+#page-2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  background-image: url("assets/the-games-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#page-2 .main-body2-left {
+  width: 25%;
+  height: 100%;
+  display: flex;
+}
+#page-2 .main-body2-left p {
+  position: absolute;
+  left: 5.7%;
+  right: 76.09%;
+  top: 18%;
+  bottom: 68.64%;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+#page-2 .main-body2-left h1 {
+  position: absolute;
+  height: 73.64px;
+  left: 5.42%;
+  right: 66.01%;
+  top: 20%;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#page-2 .main-body2-right {
+  position: absolute;
+  width: 858px;
+  height: 400px;
+  left: 30%;
+  top: 25%;
+}
+
+/* PAGE 3 */
+#page-3 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("assets/features.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#page-3 .main-body3 .box1 {
+  position: absolute;
+  left: 55.52%;
+  right: 26.29%;
+  top: 25%;
+}
+#page-3 .main-body3 .box1 h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+#page-3 .main-body3 .box2 {
+  position: absolute;
+  height: 72px;
+  left: 55.25%;
+  right: 16.22%;
+  top: 26%;
+}
+#page-3 .main-body3 .box2 h1{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+}
+
+#page-3 .main-body3 .box3 {
+  position: absolute;
+  width: 348.2px;
+  height: 38.23px;
+  left: 56%;
+  top: 43%;  
+}
+#page-3 .main-body3 .box3 p { 
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFB548;
+}
+
+#page-3 .main-body3 .box4 {
+  position: absolute;
+  left: 58%;
+  right: 12%;
+  top: 49%;
+}
+#page-3 .main-body3 .box4 p { 
+  font-family: open Sans;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+#page-3 .main-body3 .box5 {
+  position: absolute;
+  width: 366.44px;
+  height: 38.23px;
+  left: 58%;
+  top: 59%;
+}
+#page-3 .main-body3 .box5 p { 
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFB548;
+}
+
+#page-3 .main-body3 .box6 {
+  position: absolute;
+  width: 348.2px;
+  height: 38.23px;
+  left: 58%;
+  top: 67%;
+}
+#page-3 .main-body3 .box6 p { 
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFB548;
+}
+
+/* PAGE 4 */
+#page-4 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("assets/requirements.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* PAGE 5 */
+#page-5 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("assets/top-score-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+
