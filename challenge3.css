@@ -1,0 +1,681 @@
+* body {
+  height: 0;
+  margin: 0;
+}
+
+#page-1 {
+  background-image: url("assets/main-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#page-1 .navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.3);
+}
+#page-1 .navbar .logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+#page-1 .navbar .logo h2 {
+  color: white;
+}
+#page-1 .navbar .box-menu {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30%;
+}
+#page-1 .navbar .box-menu a {
+  margin: 20px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#page-1 .navbar .login {
+  width: 40%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#page-1 .navbar .login a {
+  margin: 20px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#page-1 .main {
+  width: 100%;
+  height: 73%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+#page-1 .main .box-1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#page-1 .main .box-2 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-top: -60px;
+}
+#page-1 .main .box-3 {
+  width: 15%;
+  height: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #ff9900;
+  justify-content: center;
+  border-radius: 10px;
+}
+#page-1 .main .box-3 a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  color: #1a1917;
+  text-decoration: none;
+}
+#page-1 .story {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  align-content: flex-end;
+  position: absolute;
+}
+#page-1 .scroll {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding-top: 90px;
+  justify-content: center;
+  align-content: flex-end;
+  position: absolute;
+}
+#page-1 .story a {
+  text-decoration: none;
+  color: white;
+}
+
+#page-2 {
+  background-image: url("assets/the-games-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#page-2 .main-2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#page-2 .main-2 .left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+#page-2 .main-2 .left h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+#page-2 .main-2 .left h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: -30px;
+}
+#page-2 .main-2 .right {
+  display: flex;
+  width: 50%;
+  height: 45%;
+  padding-top: 10%;
+  padding-left: 3%;
+}
+
+#page-3 {
+  background-image: url("assets/features.jpg");
+  width: 100%;
+  height: 100vh;
+  position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#page-3 .main-3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#page-3 .main-3 .left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+#page-3 .main-3 .right {
+  width: 50%;
+  padding-top: 13%;
+  display: flex;
+  flex-direction: column;
+}
+#page-3 .main-3 .right h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#page-3 .main-3 .right h2 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffb548;
+}
+#page-3 .main-3 .right h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+#page-3 .main-3 .right p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#page-4 {
+  background-image: url("assets/requirements.png");
+  width: 100%;
+  height: 100vh;
+  position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#page-4 .main-4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#page-4 .main-4 .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 0;
+}
+#page-4 .main-4 .right {
+  width: 30%;
+  padding-top: 6%;
+  display: flex;
+}
+#page-4 .main-4 .left h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#page-4 .main-4 .right h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+#page-4 table td th {
+  margin-left: -500px;
+  margin-top: 200px;
+}
+#page-4 td {
+  border: 1px solid gray;
+  color: white;
+  width: 30%;
+  height: 30%;
+}
+#page-4 table {
+  border: 1px solid gray;
+  width: 40%;
+  height: 30%;
+  border-collapse: collapse;
+}
+#page-4 th {
+  font-size: 20px;
+  border: 1px solid gray;
+  color: darkorange;
+}
+
+#page-5 {
+  background-image: url("assets/score.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+#page-5 .wrapper {
+  width: 100%;
+  height: 100;
+}
+#page-5 .wrapper.left .textbox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+  padding-left: 20%;
+  color: white;
+}
+#page-5 .wrapper.left .textbox h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#page-5 .wrapper.left .textbox p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+#page-5 .wrapper.left .textbox .btn {
+  padding: 20px;
+  margin-top: 10%;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  width: 260px;
+  text-align: center;
+  text-transform: lowercase;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#page-5 .wrapper.right .textbox {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+#page-5 .wrapper.right .box {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  border-radius: 15px;
+  max-width: 493px;
+  width: 100%;
+  height: 182px;
+  padding: 10px 25px 30px 25px;
+  margin: 30px;
+  position: relative;
+}
+#page-5 .wrapper.right .box .twitter-logo {
+  position: absolute;
+  right: 10px;
+  margin-top: 20px;
+  height: 14px;
+  width: 18px;
+}
+#page-5 .wrapper.right .box .foto {
+  position: relative;
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  clip-path: circle();
+  width: 60px;
+  height: auto;
+}
+#page-5 .wrapper.right .box h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffb548;
+}
+#page-5 .wrapper.right .box h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #ffffff;
+  opacity: 0.5;
+}
+#page-5 .wrapper.right .textbox .quotes {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+#page-5 .wrapper.right .textbox .dates {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+#page-6 {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+#page-6 .wrapper.left {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  margin: 10%;
+}
+#page-6 .wrapper.right {
+  width: 100%;
+  height: 100%;
+}
+#page-6 .wrapper.right {
+  padding-top: 10%;
+}
+#page-6 .wrapper.right h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: white;
+}
+#page-6 .wrapper.right h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+#page-6 .wrapper.right p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 645px;
+
+  color: #ffffff;
+}
+#page-6 .wrapper.right .email {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  border-radius: 5px;
+  max-width: 330px;
+  height: 58px;
+  margin: 0%;
+  padding: 5px;
+}
+#page-6 .wrapper.right .email .email-label {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+#page-6 .wrapper.right .email .field {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffb548;
+}
+#page-6 .wrapper.right .placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffb548;
+}
+#page-6 .btn {
+  padding: 0%;
+  margin: 0;
+  display: flex;
+}
+#page-6 .btn .subscribe {
+  display: flex;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  width: 260px;
+  height: 61px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  right: 12%;
+  top: 76%;
+}
+#footer .medsos {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+}
+#footer .medsos span {
+  margin: 10px;
+}
+#footer .medsos span a {
+  text-decoration: none;
+  color: white;
+}
+#footer .copyright {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+/* responsive until 768px*/
+@media (max-width: 980px) {
+  #page-1 .navbar {
+    width: fit-content;
+    font-size: 10px;
+  }
+  #page-1 .navbar .box-menu a {
+    width: fit-content;
+    font-size: 10px;
+  }
+  #page-1 .navbar .login a {
+    width: fit-content;
+    font-size: 10px;
+  }
+  .navbar .login {
+    width: fit-content;
+    margin-left: -25%;
+  }
+
+  #page-1 .main .box-1 {
+    font-size: x-large;
+  }
+  #page-1 .main .box-2 {
+    font-size: medium;
+  }
+  #page-1 .main .box-3 {
+    font-size: small;
+  }
+  #page-1 .story {
+    font-size: xx-small;
+  }
+
+  #page-2 .main-2 .left h3 {
+    font-size: medium;
+  }
+  #page-2 .main-2 .left h1 {
+    font-size: x-large;
+  }
+  #page-2 .main-2 .right img {
+    width: 90%;
+    height: 50%;
+  }
+
+  #page-3 .main-3 .right .box-1 h3 {
+    font-size: medium;
+  }
+  #page-3 .main-3 .right .box-1 h1 {
+    font-size: xx-large;
+  }
+  #page-3 .main-3 .right .box-2 h2 {
+    font-size: x-large;
+  }
+  #page-3 .main-3 .right .box-2 p {
+    font-size: small;
+  }
+
+  #page-4 .main-4 .left h1 {
+    font-size: xx-large;
+  }
+  #page-4 .main-4 .left th {
+    font-size: large;
+  }
+  #page-4 .main-4 .left td {
+    font-size: small;
+  }
+  #page-5 .wrapper.left .textbox h1 {
+    font-size: x-large;
+  }
+  #page-5 .wrapper.left .textbox a {
+    font-size: medium;
+  }
+  #page-5 .wrapper.left .textbox .btn {
+    width: 100px;
+  }
+
+  #page-5 .wrapper.right .textbox .box .box-content {
+    font-size: xx-small;
+  }
+  #page-6 .wrapper.left img {
+    width: 300px;
+    height: 600px;
+  }
+  #page-6 .wrapper.right h3 {
+    font-size: large;
+  }
+  #page-6 .wrapper.right h1 {
+    font-size: xx-large;
+    line-height: 1cm;
+  }
+  #page-6 .wrapper.right .email .btn {
+    position: relative;
+    top: 60%;
+  }
+  #footer .medsos a {
+    font-size: x-small;
+  }
+  #footer .medsos {
+    padding: none;
+  }
+  #footer .copyright span {
+    font-size: xx-small;
+  }
+}
